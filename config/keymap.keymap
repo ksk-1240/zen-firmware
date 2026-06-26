@@ -22,8 +22,8 @@
             bindings = <
 &kp GRAVE         &kp Q       &kp W         &kp E     &kp R           &kp T        &kp Y           &kp U        &kp I     &kp O           &kp P           &kp BSPC
 &kp TAB           &kp A       &kp S         &kp D     &kp F           &kp G        &kp H           &kp J        &kp K     &kp L           &kp MINUS       &kp ENTER
-&kp LSHFT         &kp Z       &kp X         &kp C     &kp V           &kp B        &msc SCRL_UP    &lt 2 SPACE  &kp N     &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp LS(INTERNATIONAL_1)
-&kp LEFT_CONTROL  &kp ESCAPE  &kp LEFT_WIN  &kp LALT  &kp LEFT_BRACE  &lt 1 SPACE  &msc SCRL_DOWN  &lt 5 SPACE  &kp APOS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LSHFT         &kp Z       &kp X         &kp C     &kp V           &kp B        &msc SCRL_UP    &lt 4 SPACE  &kp N     &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp LS(INTERNATIONAL_1)
+&kp LEFT_CONTROL  &kp ESCAPE  &kp LEFT_WIN  &kp LALT  &kp LEFT_BRACE  &lt 2 SPACE  &msc SCRL_DOWN  &lt 3 SPACE  &kp APOS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -45,7 +45,7 @@
             >;
         };
 
-        layer_4 {
+        layer_3 {
             bindings = <
 &kp QUESTION  &kp LS(EXCL)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans  &trans
 &trans        &trans        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans
@@ -54,7 +54,7 @@
             >;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &trans        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5      &trans          &kp FSLH  &kp ASTRK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &trans        &kp F6        &kp F7        &kp F8        &kp F9        &kp F10     &trans          &trans    &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
