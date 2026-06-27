@@ -11,7 +11,7 @@ properties:
     required: true
   cpi:
     type: int
-    default: 600
+    default: 200
     description: "CPI value (Range: 200 - 3200, Step: 200)"
   swap-xy:
     type: boolean
