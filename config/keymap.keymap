@@ -13,8 +13,8 @@
             label = "NEW_BEHAVIOR";
             #binding-cells = <1>;
             x-input-code = <0>;
-            y-input-code = <50>;
-            time-to-max-speed-ms = <1>;
+            y-input-code = <0.005>;
+            time-to-max-speed-ms = <0.3>;
         };
     };
 
