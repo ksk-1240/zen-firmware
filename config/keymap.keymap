@@ -7,17 +7,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    behaviors {
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-input-two-axis";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <1>;
-            x-input-code = <0>;
-            y-input-code = <0.005>;
-            time-to-max-speed-ms = <0.3>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
