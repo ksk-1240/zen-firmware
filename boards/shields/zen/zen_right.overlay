@@ -8,8 +8,8 @@
         #input-processor-cells = <2>;
         type = <INPUT_EV_REL>;
         codes = <INPUT_REL_WHEEL INPUT_REL_HWHEEL>;
-        track-remainders;
         multiplier = <2>;
+        track-remainders;
     };
 };
 
